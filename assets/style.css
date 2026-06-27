@@ -1117,3 +1117,110 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 .mob-cta-wa   { background: #25d366; }
 .mob-cta-call svg,
 .mob-cta-wa   svg { width: 19px; height: 19px; fill: var(--white); flex-shrink: 0; }
+
+/* ── KVKK Çerez Onay Banner ──────────────────── */
+#cookie-banner {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 9998;
+  background: var(--navy);
+  border-top: 2px solid var(--gold);
+  padding: 18px 28px;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 20px; flex-wrap: wrap;
+  box-shadow: 0 -4px 24px rgba(0,0,0,.22);
+  transform: translateY(0);
+  transition: transform .3s ease;
+}
+#cookie-banner.hidden { transform: translateY(110%); }
+.cookie-text {
+  font-size: .82rem; color: rgba(255,255,255,.75);
+  line-height: 1.6; flex: 1; min-width: 220px;
+}
+.cookie-text a {
+  color: var(--gold-lt);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.cookie-actions { display: flex; gap: 10px; flex-shrink: 0; }
+.cookie-btn-accept {
+  background: var(--gold); color: var(--white);
+  border: none; border-radius: var(--radius);
+  padding: 9px 22px;
+  font-family: 'Inter', sans-serif;
+  font-size: .78rem; font-weight: 700;
+  letter-spacing: .06em; text-transform: uppercase;
+  cursor: pointer; transition: background var(--tr);
+}
+.cookie-btn-accept:hover { background: #8f6129; }
+.cookie-btn-reject {
+  background: transparent; color: rgba(255,255,255,.5);
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: var(--radius);
+  padding: 9px 16px;
+  font-family: 'Inter', sans-serif;
+  font-size: .78rem; font-weight: 600;
+  cursor: pointer; transition: color var(--tr), border-color var(--tr);
+}
+.cookie-btn-reject:hover { color: var(--white); border-color: rgba(255,255,255,.5); }
+@media (max-width: 480px) {
+  #cookie-banner { padding: 16px 18px; bottom: 54px; }
+  .cookie-actions { width: 100%; }
+  .cookie-btn-accept, .cookie-btn-reject { flex: 1; text-align: center; }
+}
+
+/* ── Performance: Content Visibility ─────────── */
+.section,
+.section-sm,
+.stats-bar,
+.cta-banner {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 500px;
+}
+/* Hero and header are above fold — no content-visibility */
+.hero,
+.header,
+.page-banner,
+.breadcrumb {
+  content-visibility: visible;
+}
+
+/* ── Performance: Paint hints ─────────────────── */
+.prod-sc-card,
+.product-card,
+.gallery-item,
+.preview-item {
+  will-change: transform;
+  contain: layout style;
+}
+
+/* ── Performance: Image rendering ────────────── */
+img {
+  image-rendering: auto;
+}
+.prod-sc-thumb img,
+.product-img img,
+.gallery-item img,
+.preview-item img {
+  decoding: async;
+}
+
+/* ── Performance: Reduce motion ──────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+  html { scroll-behavior: auto; }
+}
+
+/* ── picture element — block display fix ─────── */
+picture {
+  display: contents;
+}
+picture img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

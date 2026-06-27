@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
-Disallow: /perde-sistemleri.html
+Disallow: /node_modules/
+Disallow: /scripts/
+Disallow: /.git/
+Disallow: /package.json
+Disallow: /package-lock.json
 
 # AI crawlers
 User-agent: GPTBot
