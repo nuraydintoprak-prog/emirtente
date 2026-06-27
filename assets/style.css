@@ -132,9 +132,11 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 /* Logo */
 .logo { display: flex; flex-direction: column; line-height: 1; }
 .logo-img { display: block; height: auto; max-height: 62px; max-width: 155px; width: auto; object-fit: contain; }
-.mobile-nav .logo-img, .footer .logo-img { display: none; }
+.footer .logo-img { display: none; }
 .header-inner .logo-name, .header-inner .logo-sub { display: none; }
+.mobile-nav .logo-name, .mobile-nav .logo-sub { display: none; }
 .header-inner > .logo { height: 100%; display: flex; align-items: center; }
+.mobile-nav-header .logo-img { max-height: 48px; max-width: 130px; }
 .logo-name {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.65rem; font-weight: 700;
