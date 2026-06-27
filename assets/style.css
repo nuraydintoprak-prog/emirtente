@@ -131,6 +131,9 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 
 /* Logo */
 .logo { display: flex; flex-direction: column; line-height: 1; }
+.logo-img { display: block; height: 46px; width: auto; object-fit: contain; }
+.mobile-nav .logo-img, .footer .logo-img { display: none; }
+.header-inner .logo-name, .header-inner .logo-sub { display: none; }
 .logo-name {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.65rem; font-weight: 700;
