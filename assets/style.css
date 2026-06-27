@@ -379,10 +379,26 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 .breadcrumb li:last-child { color: var(--text); font-weight: 500; }
 
 /* ── Product Showcase Grid (homepage) ────────── */
+.prod-sections { display: flex; flex-direction: column; gap: 44px; }
+.prod-section-hd {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 18px;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 10px;
+}
+.prod-section-hd h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem; font-weight: 700; color: var(--navy); margin: 0;
+}
+.prod-section-hd a {
+  font-size: .72rem; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--gold);
+  white-space: nowrap;
+}
 .prod-showcase {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
 }
 .prod-sc-card {
   display: block; text-decoration: none;
@@ -396,8 +412,8 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 .prod-sc-thumb { aspect-ratio: 4/3; overflow: hidden; background: var(--gray); }
 .prod-sc-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
 .prod-sc-card:hover .prod-sc-thumb img { transform: scale(1.06); }
-.prod-sc-body { padding: 12px 14px 16px; }
-.prod-sc-body h3 { font-size: .87rem; font-weight: 600; color: var(--navy); margin: 0; line-height: 1.35; }
+.prod-sc-body { padding: 14px 16px 18px; }
+.prod-sc-body h3 { font-size: 1rem; font-weight: 600; color: var(--navy); margin: 0; line-height: 1.4; }
 
 /* ── Preview Gallery (homepage "Bizden") ────── */
 .preview-grid {
@@ -998,7 +1014,7 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 
 /* ── Responsive additions ────────────────────── */
 @media (max-width: 1024px) {
-  .prod-showcase   { grid-template-columns: repeat(3,1fr); }
+  .prod-showcase   { grid-template-columns: repeat(2,1fr); }
   .spec-strip      { grid-template-columns: repeat(2,1fr); }
   .who-cards       { grid-template-columns: repeat(2,1fr); }
   .feat-cards      { grid-template-columns: repeat(2,1fr); }
@@ -1049,7 +1065,7 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
   .logo-img           { max-height: 46px; max-width: 120px; }
   .header-inner > .logo { height: 100%; display: flex; align-items: center; }
   .topbar-left span:not(.topbar-addr) { display: none; }
-  .prod-showcase      { grid-template-columns: repeat(2,1fr); }
+  .prod-showcase      { grid-template-columns: repeat(2,1fr); gap: 12px; }
   .services-grid      { grid-template-columns: 1fr; }
   .preview-grid       { grid-template-columns: 1fr; }
   .guarantee-grid     { grid-template-columns: 1fr; }
