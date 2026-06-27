@@ -149,7 +149,7 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 }
 
 /* Nav */
-.nav { position: absolute; left: 50%; transform: translateX(-50%); display: flex; justify-content: center; }
+.nav { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; justify-content: center; }
 .nav-list {
   display: flex; align-items: center; gap: 0;
 }
