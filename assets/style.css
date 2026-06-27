@@ -1112,13 +1112,15 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 
 /* ── Mobile Sticky CTA Bar ───────────────────── */
 .mob-cta-bar {
-  display: none;
   position: fixed;
   bottom: 0; left: 0; right: 0;
   z-index: 1000;
   height: 54px;
   grid-template-columns: 1fr 1fr;
   box-shadow: 0 -2px 12px rgba(0,0,0,.15);
+}
+@media (min-width: 769px) {
+  .mob-cta-bar { display: none !important; }
 }
 .mob-cta-call,
 .mob-cta-wa {
