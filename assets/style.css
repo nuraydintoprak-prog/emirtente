@@ -1,4 +1,4 @@
-/* ════════════════════════════════════════════
+﻿/* ════════════════════════════════════════════
    Emir Tente — Global Stylesheet
    ════════════════════════════════════════════ */
 
@@ -131,12 +131,12 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 
 /* Logo */
 .logo { display: flex; flex-direction: column; line-height: 1; }
-.logo-img { display: block; height: auto; max-height: 62px; max-width: 155px; width: auto; object-fit: contain; }
+.logo-img { display: block; height: auto; max-height: 72px; max-width: 190px; width: auto; object-fit: contain; }
 .footer .logo-img { display: none; }
 .header-inner .logo-name, .header-inner .logo-sub { display: none; }
 .mobile-nav .logo-name, .mobile-nav .logo-sub { display: none; }
 .header-inner > .logo { height: 100%; display: flex; align-items: center; }
-.mobile-nav-header .logo-img { max-height: 48px; max-width: 130px; }
+.mobile-nav-header .logo-img { max-height: 52px; max-width: 150px; }
 .logo-name {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.65rem; font-weight: 700;
@@ -149,7 +149,7 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
 }
 
 /* Nav */
-.nav { flex: 1; display: flex; justify-content: center; }
+.nav { position: absolute; left: 50%; transform: translateX(-50%); display: flex; justify-content: center; }
 .nav-list {
   display: flex; align-items: center; gap: 0;
 }
@@ -1068,7 +1068,7 @@ p  { font-size: .95rem; color: var(--muted); line-height: 1.75; }
   .nav,.header-cta    { display: none; }
   .hamburger          { display: flex; }
   :root               { --header-h: 64px; }
-  .logo-img           { max-height: 46px; max-width: 120px; }
+  .logo-img           { max-height: 50px; max-width: 135px; }
   .header-inner > .logo { height: 100%; display: flex; align-items: center; }
   .topbar-left span:not(.topbar-addr) { display: none; }
   .prod-showcase      { grid-template-columns: repeat(2,1fr); gap: 12px; }
