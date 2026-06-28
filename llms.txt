@@ -1,37 +1,37 @@
-# Emir Tente — llms.txt
-# https://emirtente.com.tr
+# Emir Tente
 
-## Şirket
-Emir Tente, Çeşme / İzmir'de faaliyet gösteren profesyonel tente, pergola ve branda sistemi kurulum firmasıdır.
-15 yılı aşkın deneyim, 2.400+ tamamlanan proje, 2 yıl işçilik ve malzeme garantisi.
+> Çeşme ve İzmir genelinde profesyonel tente, pergola ve branda sistemi tasarımı, üretimi ve kurulumu. 15 yılı aşkın deneyim, 2.400'ü aşkın tamamlanan proje, 2 yıl işçilik ve malzeme garantisi.
+
+Emir Tente, Çeşme / İzmir merkezli bir tente ve pergola firmasıdır. Somfy ve Becker motorlu sistemler dahil tüm ürünleri yerinde ölçüm, özel üretim ve profesyonel montaj hizmetiyle sunar. Hizmet bölgesi: Çeşme, Alaçatı, Urla ve İzmir geneli.
+
 İletişim: 0530 761 77 69 | emirhan-1988@hotmail.com
 Adres: Musalla Mh. 1054 Sk. No:2 Otogar Kavşağı, Çeşme / İzmir
 
-## Hizmetler
-- Klasik Tente: Manuel açılır-kapanır, ekonomik gölgeleme çözümü
-- Otomatik Tente: Somfy/Becker elektrikli motorlu, uzaktan kumandalı
-- Kasetli Tente: Kumaş ve mekanizması muhafaza içinde saklanan premium tente
-- Karpuz Tente: Kavisli tasarım, mimari değer katan modern tente
-- Körüklü Tente: Geniş açıklıklar için akordeon sistemi
-- Mafsallı Tente: Esnek kollu, geniş açıklık kaplayan tente
-- T-Modül Tente: Düz tavana monte, modern ofis ve AVM çözümü
-- Win Tente: Rüzgar sensörlü, yüksek performanslı otomatik tente
-- Motorlu Pergola: Alüminyum profil, yatay lamelli motorlu tavan
-- Otomatik Pergola: Tam otomatik, akıllı kontrol sistemi
-- Oval Pergola: Elips formlu, dekoratif bahçe pergolası
-- Şeffaf Store Perde: PVC şeffaf perde, rüzgar ve soğuktan koruma
-- Dikey Şeffaf Store: Dikey monte şeffaf esnek cam sistemi
-- Kış Bahçesi: Yıl boyu kullanım için alüminyum ve cam sistem
-- Havuz Brandası: Su geçirmez, UV korumalı havuz örtüsü
+## Ana Sayfalar
 
-## Hizmet Bölgesi
-Çeşme, Alaçatı, Urla, İzmir ve çevresi
+- [Ana Sayfa](https://emirtente.com.tr/): Emir Tente genel tanıtım ve ürün özeti
+- [Tente Sistemleri](https://emirtente.com.tr/tente-sistemleri.html): Klasik, otomatik, kasetli, karpuz, körüklü ve mafsallı tente çözümleri
+- [Pergola Sistemleri](https://emirtente.com.tr/pergola-sistemleri.html): Motorlu, otomatik ve oval pergola modelleri
+- [Biyoklimatik Sistemleri](https://emirtente.com.tr/biyoklimatik-sistemleri.html): Lamel açılı biyoklimatik pergola
+- [Branda Sistemleri](https://emirtente.com.tr/branda-sistemleri.html): Havuz brandası ve özel branda çözümleri
+- [Galeri](https://emirtente.com.tr/galeri.html): Tamamlanan projelerden fotoğraflar
+- [Hakkımızda](https://emirtente.com.tr/hakkimizda.html): Firma hikayesi ve ekip
+- [SSS](https://emirtente.com.tr/sss.html): Sık sorulan sorular
+- [İletişim](https://emirtente.com.tr/iletisim.html): Adres, telefon ve iletişim formu
 
-## Sayfalar
-- Ana Sayfa: https://emirtente.com.tr/
-- Tente Sistemleri: https://emirtente.com.tr/tente-sistemleri.html
-- Pergola Sistemleri: https://emirtente.com.tr/pergola-sistemleri.html
-- Branda Sistemleri: https://emirtente.com.tr/branda-sistemleri.html
-- Galeri: https://emirtente.com.tr/galeri.html
-- SSS: https://emirtente.com.tr/sss.html
-- İletişim: https://emirtente.com.tr/iletisim.html
+## Ürün Sayfaları
+
+- [Klasik Tente](https://emirtente.com.tr/klasik-tente.html): Manuel açılır-kapanır ekonomik gölgeleme
+- [Otomatik Tente](https://emirtente.com.tr/otomatik-tente.html): Somfy/Becker elektrikli motorlu, uzaktan kumandalı
+- [Kasetli Tente](https://emirtente.com.tr/kasetli-tente.html): Kumaş ve mekanizması muhafazada saklanan premium tente
+- [Karpuz Tente](https://emirtente.com.tr/karpuz-tente.html): Kavisli tasarım, mimari değer katan modern tente
+- [Körüklü Tente](https://emirtente.com.tr/koruklu-tente.html): Geniş açıklıklar için akordeon sistemi
+- [Mafsallı Tente](https://emirtente.com.tr/mafsalli-tente.html): Esnek kollu, geniş açıklık kaplayan tente
+- [T-Modül Tente](https://emirtente.com.tr/t-modul-tente.html): Düz tavana monte, modern ofis çözümü
+- [Win Tente](https://emirtente.com.tr/win-tente.html): Rüzgar sensörlü yüksek performanslı otomatik tente
+- [Şeffaf Store](https://emirtente.com.tr/seffaf-store.html): PVC şeffaf perde, rüzgar ve soğuktan koruma
+- [Perde Sistemleri](https://emirtente.com.tr/perde-sistemleri.html): Dikey ve yatay perde sistemleri
+- [Oyster Cam](https://emirtente.com.tr/oyster-cam.html): Giyotin cam / oyster cam sistemi
+- [Sürgülü Cam](https://emirtente.com.tr/surgulu-cam.html): Sürgülü cam balkon ve teras kapatma
+- [Katlanır Cam](https://emirtente.com.tr/katlanir-cam.html): Katlanır cam sistemi
+- [Kış Bahçesi](https://emirtente.com.tr/kis-bahcesi.html): Yıl boyu kullanım için alüminyum ve cam sistem
